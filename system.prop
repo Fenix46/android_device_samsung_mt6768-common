@@ -1,0 +1,60 @@
+# Audio
+audio_para_version=J15S-Audiopara-V19-20200420
+ro.audio.silent=0
+ro.camera.sound.forced=0
+ro.config.vc_call_vol_steps=6
+
+# Brand
+Build.BRAND=MTK
+
+# Camera
+persist.camera.dualcal.state=-1
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
+
+# Dex
+dalvik.vm.dex2oat64.enabled=true
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
+# Order
+ro.product.property_source_order=odm,vendor,product,system
+
+# System
+persist.sys.binary_xml=false
+
+# Radio
+persist.internalAntenna.enable=true
+
+# USB
+persist.vendor.otg_control=true
+ro.sys.usb.bicr=no
+ro.sys.usb.charging.only=yes
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+
+# WiFi
+mediatek.wlan.ctia=0
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
